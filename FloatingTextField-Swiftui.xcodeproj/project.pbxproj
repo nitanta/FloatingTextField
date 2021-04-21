@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A77CE792630452300EA8E62 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE782630452300EA8E62 /* Tests_iOS.swift */; };
+		6A77CE842630452300EA8E62 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE832630452300EA8E62 /* Tests_macOS.swift */; };
+		6A77CE862630452300EA8E62 /* FloatingTextField_SwiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE5D2630451F00EA8E62 /* FloatingTextField_SwiftuiApp.swift */; };
+		6A77CE872630452300EA8E62 /* FloatingTextField_SwiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE5D2630451F00EA8E62 /* FloatingTextField_SwiftuiApp.swift */; };
+		6A77CE882630452300EA8E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE5E2630451F00EA8E62 /* ContentView.swift */; };
+		6A77CE892630452300EA8E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE5E2630451F00EA8E62 /* ContentView.swift */; };
+		6A77CE8A2630452300EA8E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A77CE5F2630452200EA8E62 /* Assets.xcassets */; };
+		6A77CE8B2630452300EA8E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A77CE5F2630452200EA8E62 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A77CE752630452300EA8E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A77CE582630451F00EA8E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A77CE632630452200EA8E62;
+			remoteInfo = "FloatingTextField-Swiftui (iOS)";
+		};
+		6A77CE802630452300EA8E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A77CE582630451F00EA8E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A77CE6B2630452300EA8E62;
+			remoteInfo = "FloatingTextField-Swiftui (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A77CE5D2630451F00EA8E62 /* FloatingTextField_SwiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField_SwiftuiApp.swift; sourceTree = "<group>"; };
+		6A77CE5E2630451F00EA8E62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A77CE5F2630452200EA8E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A77CE642630452200EA8E62 /* FloatingTextField-Swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FloatingTextField-Swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77CE672630452300EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77CE6C2630452300EA8E62 /* FloatingTextField-Swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FloatingTextField-Swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77CE6E2630452300EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77CE6F2630452300EA8E62 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6A77CE742630452300EA8E62 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77CE782630452300EA8E62 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		6A77CE7A2630452300EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77CE7F2630452300EA8E62 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77CE832630452300EA8E62 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		6A77CE852630452300EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A77CE612630452200EA8E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE692630452300EA8E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE712630452300EA8E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE7C2630452300EA8E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A77CE572630451F00EA8E62 = {
+			isa = PBXGroup;
+			children = (
+				6A77CE5C2630451F00EA8E62 /* Shared */,
+				6A77CE662630452200EA8E62 /* iOS */,
+				6A77CE6D2630452300EA8E62 /* macOS */,
+				6A77CE772630452300EA8E62 /* Tests iOS */,
+				6A77CE822630452300EA8E62 /* Tests macOS */,
+				6A77CE652630452200EA8E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A77CE5C2630451F00EA8E62 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE5D2630451F00EA8E62 /* FloatingTextField_SwiftuiApp.swift */,
+				6A77CE5E2630451F00EA8E62 /* ContentView.swift */,
+				6A77CE5F2630452200EA8E62 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6A77CE652630452200EA8E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE642630452200EA8E62 /* FloatingTextField-Swiftui.app */,
+				6A77CE6C2630452300EA8E62 /* FloatingTextField-Swiftui.app */,
+				6A77CE742630452300EA8E62 /* Tests iOS.xctest */,
+				6A77CE7F2630452300EA8E62 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A77CE662630452200EA8E62 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE672630452300EA8E62 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6A77CE6D2630452300EA8E62 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE6E2630452300EA8E62 /* Info.plist */,
+				6A77CE6F2630452300EA8E62 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6A77CE772630452300EA8E62 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE782630452300EA8E62 /* Tests_iOS.swift */,
+				6A77CE7A2630452300EA8E62 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		6A77CE822630452300EA8E62 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE832630452300EA8E62 /* Tests_macOS.swift */,
+				6A77CE852630452300EA8E62 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A77CE632630452200EA8E62 /* FloatingTextField-Swiftui (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77CE8E2630452300EA8E62 /* Build configuration list for PBXNativeTarget "FloatingTextField-Swiftui (iOS)" */;
+			buildPhases = (
+				6A77CE602630452200EA8E62 /* Sources */,
+				6A77CE612630452200EA8E62 /* Frameworks */,
+				6A77CE622630452200EA8E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FloatingTextField-Swiftui (iOS)";
+			productName = "FloatingTextField-Swiftui (iOS)";
+			productReference = 6A77CE642630452200EA8E62 /* FloatingTextField-Swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A77CE6B2630452300EA8E62 /* FloatingTextField-Swiftui (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77CE912630452300EA8E62 /* Build configuration list for PBXNativeTarget "FloatingTextField-Swiftui (macOS)" */;
+			buildPhases = (
+				6A77CE682630452300EA8E62 /* Sources */,
+				6A77CE692630452300EA8E62 /* Frameworks */,
+				6A77CE6A2630452300EA8E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FloatingTextField-Swiftui (macOS)";
+			productName = "FloatingTextField-Swiftui (macOS)";
+			productReference = 6A77CE6C2630452300EA8E62 /* FloatingTextField-Swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A77CE732630452300EA8E62 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77CE942630452300EA8E62 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				6A77CE702630452300EA8E62 /* Sources */,
+				6A77CE712630452300EA8E62 /* Frameworks */,
+				6A77CE722630452300EA8E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A77CE762630452300EA8E62 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 6A77CE742630452300EA8E62 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6A77CE7E2630452300EA8E62 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77CE972630452300EA8E62 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				6A77CE7B2630452300EA8E62 /* Sources */,
+				6A77CE7C2630452300EA8E62 /* Frameworks */,
+				6A77CE7D2630452300EA8E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A77CE812630452300EA8E62 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 6A77CE7F2630452300EA8E62 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A77CE582630451F00EA8E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6A77CE632630452200EA8E62 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6A77CE6B2630452300EA8E62 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6A77CE732630452300EA8E62 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6A77CE632630452200EA8E62;
+					};
+					6A77CE7E2630452300EA8E62 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6A77CE6B2630452300EA8E62;
+					};
+				};
+			};
+			buildConfigurationList = 6A77CE5B2630451F00EA8E62 /* Build configuration list for PBXProject "FloatingTextField-Swiftui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A77CE572630451F00EA8E62;
+			productRefGroup = 6A77CE652630452200EA8E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A77CE632630452200EA8E62 /* FloatingTextField-Swiftui (iOS) */,
+				6A77CE6B2630452300EA8E62 /* FloatingTextField-Swiftui (macOS) */,
+				6A77CE732630452300EA8E62 /* Tests iOS */,
+				6A77CE7E2630452300EA8E62 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A77CE622630452200EA8E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CE8A2630452300EA8E62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE6A2630452300EA8E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CE8B2630452300EA8E62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE722630452300EA8E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE7D2630452300EA8E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A77CE602630452200EA8E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CE882630452300EA8E62 /* ContentView.swift in Sources */,
+				6A77CE862630452300EA8E62 /* FloatingTextField_SwiftuiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE682630452300EA8E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CE892630452300EA8E62 /* ContentView.swift in Sources */,
+				6A77CE872630452300EA8E62 /* FloatingTextField_SwiftuiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE702630452300EA8E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CE792630452300EA8E62 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CE7B2630452300EA8E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CE842630452300EA8E62 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A77CE762630452300EA8E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A77CE632630452200EA8E62 /* FloatingTextField-Swiftui (iOS) */;
+			targetProxy = 6A77CE752630452300EA8E62 /* PBXContainerItemProxy */;
+		};
+		6A77CE812630452300EA8E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A77CE6B2630452300EA8E62 /* FloatingTextField-Swiftui (macOS) */;
+			targetProxy = 6A77CE802630452300EA8E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A77CE8C2630452300EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A77CE8D2630452300EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6A77CE8F2630452300EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.FloatingTextField-Swiftui";
+				PRODUCT_NAME = "FloatingTextField-Swiftui";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A77CE902630452300EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.FloatingTextField-Swiftui";
+				PRODUCT_NAME = "FloatingTextField-Swiftui";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A77CE922630452300EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.FloatingTextField-Swiftui";
+				PRODUCT_NAME = "FloatingTextField-Swiftui";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A77CE932630452300EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.FloatingTextField-Swiftui";
+				PRODUCT_NAME = "FloatingTextField-Swiftui";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6A77CE952630452300EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FloatingTextField-Swiftui (iOS)";
+			};
+			name = Debug;
+		};
+		6A77CE962630452300EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FloatingTextField-Swiftui (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A77CE982630452300EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FloatingTextField-Swiftui (macOS)";
+			};
+			name = Debug;
+		};
+		6A77CE992630452300EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FloatingTextField-Swiftui (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A77CE5B2630451F00EA8E62 /* Build configuration list for PBXProject "FloatingTextField-Swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CE8C2630452300EA8E62 /* Debug */,
+				6A77CE8D2630452300EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77CE8E2630452300EA8E62 /* Build configuration list for PBXNativeTarget "FloatingTextField-Swiftui (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CE8F2630452300EA8E62 /* Debug */,
+				6A77CE902630452300EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77CE912630452300EA8E62 /* Build configuration list for PBXNativeTarget "FloatingTextField-Swiftui (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CE922630452300EA8E62 /* Debug */,
+				6A77CE932630452300EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77CE942630452300EA8E62 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CE952630452300EA8E62 /* Debug */,
+				6A77CE962630452300EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77CE972630452300EA8E62 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CE982630452300EA8E62 /* Debug */,
+				6A77CE992630452300EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A77CE582630451F00EA8E62 /* Project object */;
+}
